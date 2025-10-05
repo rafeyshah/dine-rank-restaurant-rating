@@ -49,11 +49,35 @@ Key features include:
 
 ---
 
+## 📈 Feature Engineering and Model Preparation
+
+After completing the exploratory data analysis, the next step involved **Feature Engineering** to prepare data for the predictive model.
+
+### 🔹 Input Features (X)
+For training, the following input features were selected based on their importance in influencing restaurant ratings:
+
+1. **Average Cost for Two** – Represents the cost of dining; pricing directly impacts user satisfaction and hence ratings.  
+2. **Has Table Booking** – Indicates whether users can book tables; lack of this option can negatively affect ratings.  
+3. **Has Online Delivery** – Reflects delivery availability; restaurants without delivery often receive lower user satisfaction.  
+4. **Price Range** – Categorized from cheapest to most expensive; influences both cost perception and overall experience.
+
+### 🔹 Output Variable (y)
+- **Aggregate Rating**  
+  Since this is a **regression task**, the target variable is continuous, representing the average rating given by customers.
+
+### 🔹 Encoding and Scaling
+Out of the four input features:
+- Two features (`Has Table Booking` and `Has Online Delivery`) are **categorical**, so they were **converted into numeric form** using `LabelEncoder`.  
+- After encoding, **scaling** was applied to all features to bring them to a common range, ensuring better model performance.
+
+This preprocessing step lays the foundation for training and evaluating the **Restaurant Ratings Predictor**.
+
+---
+
 ## 📌 Current Progress
 ✔️ Data cleaning and exploratory analysis completed.  
-❌ Model building not yet started.  
-
-The next steps will involve feature engineering and building the **Restaurant Ratings Predictor** using machine learning models.
+✔️ Feature engineering and preprocessing completed.  
+❌ Model training and evaluation in progress.
 
 ---
 
