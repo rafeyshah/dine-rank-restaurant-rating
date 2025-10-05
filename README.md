@@ -1,9 +1,7 @@
 # 🍽️ Dine Rank
 
 This project is based on the [Restaurant Dataset](https://www.kaggle.com/datasets/mohdshahnawazaadil/restaurant-dataset) from Kaggle.  
-The ultimate goal of this project is to build a **Restaurant Ratings Predictor**, but at the current stage, I have completed the **Exploratory Data Analysis (EDA)**.
-
----
+The ultimate goal of this project is to build a **Restaurant Ratings Predictor**
 
 ## 📂 Dataset Description
 The dataset contains detailed information about restaurants across **141 cities**.  
@@ -47,7 +45,6 @@ Key features include:
    - Most ratings are categorized as **Average**.  
    - **Excellent** and **Poor** ratings are comparatively rare.
 
----
 
 ## 📈 Feature Engineering and Model Preparation
 
@@ -72,12 +69,36 @@ Out of the four input features:
 
 This preprocessing step lays the foundation for training and evaluating the **Restaurant Ratings Predictor**.
 
+## 📊 Model Performance Comparison
+
+| Model Name | MAE ↓ | MSE ↓ | Remarks |
+|:------------|:------:|:------:|:--------|
+| Linear Regression | 0.399 | 0.5000 | Baseline model |
+| Support Vector Regressor | 0.3877 | 0.4946 | Slight improvement with non-linear kernel |
+| Decision Tree Regressor | 0.3610 | 0.4568 | Handles non-linear relations well |
+| **Random Forest Regressor** | **0.3600** | **0.4552** | ✅ **Best performance overall** |
+| K Nearest Neighbor | 0.3800 | 0.4830 | Performs decently on local similarity patterns |
+| AdaBoost Regressor | 0.3700 | 0.4660 | Ensemble method, better than single trees |
+
+### 🏆 Best Model: Random Forest Regressor
+
+The **Random Forest Regressor** achieved the **lowest MAE (0.3600)** and **lowest MSE (0.4552)**, indicating it provides the most accurate and consistent predictions for restaurant ratings.  
+
+Random Forest combines multiple decision trees, reducing overfitting and improving generalization — which explains its superior performance in this dataset.
+
+### 🔍 Key Takeaways
+
+- All models perform reasonably well, but **ensemble methods** (like Random Forest and AdaBoost) outperform single learners.  
+- The **gap between MAE and MSE** across models is small, showing stable predictions without extreme errors.  
+- Random Forest will be used as the **final model** for deployment and further fine-tuning.
+
 ---
 
 ## 📌 Current Progress
 ✔️ Data cleaning and exploratory analysis completed.  
 ✔️ Feature engineering and preprocessing completed.  
-❌ Model training and evaluation in progress.
+✔️ Model training and evaluation. 
+❌ Deployment in progress.
 
 ---
 
