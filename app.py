@@ -9,7 +9,7 @@ scaler = joblib.load("Scaler.pkl")
 st.title("Dine Rank")
 
 
-st.caption("This app helps you to predict a restaurant review class from India")
+st.caption("This app helps you to predict a restaurant review class from from India, Pakistan, Indonesia & Bangladesh")
 
 st.divider()
 
