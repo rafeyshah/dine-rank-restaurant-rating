@@ -1,7 +1,8 @@
 # 🍽️ Dine Rank
 
-This project is based on the [Restaurant Dataset](https://www.kaggle.com/datasets/mohdshahnawazaadil/restaurant-dataset) from Kaggle.  
-The ultimate goal of this project is to build a **Restaurant Ratings Predictor**
+This project is based on the [Restaurant Dataset](https://www.kaggle.com/datasets/mohdshahnawazaadil/restaurant-dataset) from Kaggle.
+The ultimate goal of this project is to build a Restaurant Ratings Predictor
+from **India, Pakistan, Indonesia & Bangladesh**
 
 ## 📂 Dataset Description
 The dataset contains detailed information about restaurants across **141 cities**.  
@@ -97,7 +98,7 @@ Random Forest combines multiple decision trees, reducing overfitting and improvi
 ## 📌 Current Progress
 ✔️ Data cleaning and exploratory analysis completed.  
 ✔️ Feature engineering and preprocessing completed.  
-✔️ Model training and evaluation. 
+✔️ Model training and evaluation.
 ❌ Deployment in progress.
 
 ---
