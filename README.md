@@ -1,4 +1,4 @@
-# 🍽️ Restaurant Ratings Predictor
+# 🍽️ Dine Rank
 
 This project is based on the [Restaurant Dataset](https://www.kaggle.com/datasets/mohdshahnawazaadil/restaurant-dataset) from Kaggle.  
 The ultimate goal of this project is to build a **Restaurant Ratings Predictor**, but at the current stage, I have completed the **Exploratory Data Analysis (EDA)**.
