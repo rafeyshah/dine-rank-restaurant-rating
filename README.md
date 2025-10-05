@@ -5,7 +5,7 @@ from **India, Pakistan, Indonesia & Bangladesh**
 
 This project is based on the [Restaurant Dataset](https://www.kaggle.com/datasets/mohdshahnawazaadil/restaurant-dataset) from Kaggle.
 
-
+[Live Preview](https://rafeyshah-dine-rank-app-yi2dfg.streamlit.app/) can be accessed here
 
 ## 📂 Dataset Description
 The dataset contains detailed information about restaurants across **141 cities**.  
